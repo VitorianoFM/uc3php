@@ -1,6 +1,6 @@
 <?php
 
-// Verificação se o número é par
+// Verificação se o primeiro nome é igual ao segundo
 
 echo "Digite o primeiro nome: ";
 $nome1 = trim(fgets(STDIN));

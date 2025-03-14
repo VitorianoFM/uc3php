@@ -6,4 +6,4 @@ echo "Digite um número: ";
 $numero = trim(fgets(STDIN));
 $numeroDois = 2;
 
-echo ($numero % $numeroDois ? "O número não é par" : "O número é par")."\n";
+echo ($numero % $numeroDois == 0 ? "O número é par" : "O número não é par")."\n";
