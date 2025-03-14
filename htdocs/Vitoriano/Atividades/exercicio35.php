@@ -7,8 +7,8 @@ $nome = trim(fgets(STDIN));
 echo "Digite sua senha: ";
 $senha = trim(fgets(STDIN));
 
-if ( $nome == "John" && $senha == 123456) {
-    echo "Você está logado";
+if ( $nome == "admin" && $senha == 1234) {
+    echo "Login bem-sucedido!";
 
 } else  {
     echo "Você digitou o login ou senha errado!";
