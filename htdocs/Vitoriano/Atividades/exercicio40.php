@@ -14,10 +14,10 @@ $ladoC = trim(fgets(STDIN));
 if ($ladoA == $ladoB && $ladoB == $ladoC) { 
     echo "Todos os lados iguais -> Equilátero";
 }
-if ($ladoA == $ladoB || $ladoB == $ladoC || $ladoA == $ladoC) { 
+elseif ($ladoA == $ladoB || $ladoB == $ladoC || $ladoA == $ladoC) { 
     echo "Dois lados -> Isósceles";
 } 
-if ($ladoA !== $ladoB || $ladoB !== $ladoC || $ladoA !== $ladoC) { 
+elseif ($ladoA !== $ladoB || $ladoB !== $ladoC || $ladoA !== $ladoC) { 
     echo "Todos os lados diferentes -> Escaleno";
 }
 
