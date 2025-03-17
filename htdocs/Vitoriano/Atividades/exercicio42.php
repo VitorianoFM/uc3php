@@ -1,6 +1,6 @@
 <?php
 
-// Verificação de Conversão de Notas para Conceitos
+// Verificação de Cálculo de Tarifa Bancária
 
 echo "Digite seu saldo bancário: ";
 $saldo = trim(fgets(STDIN));
