@@ -6,7 +6,6 @@ if (isset($_GET['nome']) && isset($_GET['idade'])) {
     $nome = htmlspecialchars($_GET['nome']); // Captura e trata o nome
     $idade = intval($_GET['idade']); // Captura e trata a idade como um número inteiro
 
-    // Exibe os dados
     echo "Nome: $nome <br>";
     echo "Idade: $idade <br>";
 } else {
